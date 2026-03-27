@@ -1,6 +1,5 @@
 import argparse
 import os
-from tabnanny import verbose
 
 from dotenv import load_dotenv
 from google import genai
