@@ -33,7 +33,7 @@ def call_function(function_call, verbose=False):
         )
     # initialize the args and call the function
     args = dict(function_call.args) if function_call.args else {}
-    args["working_directory"] = "./calculator"
+    args["working_directory"] = "./"
     function_result = function_map[function_name](**args)
 
     return types.Content(
